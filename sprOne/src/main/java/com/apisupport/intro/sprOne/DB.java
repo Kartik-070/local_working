@@ -1,2 +1,5 @@
-package com.apisupport.intro.sprOne;public interface DB {
+package com.apisupport.intro.sprOne;
+
+public interface DB {
+    String getData();
 }
