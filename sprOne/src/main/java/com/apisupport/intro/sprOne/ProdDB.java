@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 @ConditionalOnProperty(name = "deploy.env", havingValue = "production")
 public class ProdDB implements DB{
     public String getData(){
-        return "Data from ProdDb";
+        return "Data from ProdDb trying in office";
     }
 }
